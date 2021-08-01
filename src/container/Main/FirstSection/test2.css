@@ -1,0 +1,36 @@
+.backGround-container{
+    background-color: #b5cfea;
+}
+.rental-item{
+    background-image: url(./images/rental.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px 30% 55px 10%;
+    border-radius: 8px;
+    background-size: cover;
+    font-size: 35px;
+}
+.flex-container{
+    display: flex;
+}
+
+.rental-link{
+    font-family: "Jost", sans-serif;
+    font-size: 45px;
+}
+.rental-text{
+    font-size: 16px;
+}
+
+.shop-item{
+
+        background-image: url(./images/ski2-home-pic4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30px 15% 40px;
+        border-radius: 8px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+   
+}
