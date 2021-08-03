@@ -1,5 +1,7 @@
 .backGround-container{
     background-color: #b5cfea;
+    padding-top: 20px;
+
 }
 .rental-item{
     background-image: url(./images/rental.jpg);
@@ -14,11 +16,12 @@
     display: flex;
 }
 
-.rental-link{
+.link {
     font-family: "Jost", sans-serif;
-    font-size: 45px;
+    font-size: 35px;
 }
-.rental-text{
+.text{
+    font-family: "Jost", sans-serif;
     font-size: 16px;
 }
 
@@ -30,7 +33,34 @@
         padding: 30px 15% 40px;
         border-radius: 8px;
         margin-top: 20px;
+        display: flex;
         justify-content: center;
         align-items: center;
    
+}
+.lessons-item{
+    background-image: url(./images/ski2-home-pic2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 160px 30% 145px 10%;
+    border-radius: 8px;
+    background-size: cover;
+    text-align: center;
+}
+
+.jumping-item{
+    background-image: url(./images/ski2-home-pic3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px 30% 55px 10%;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.str2192:after {
+    content: " \2192";
+}
+
+.column{
+    padding: 0px 15px;
 }
