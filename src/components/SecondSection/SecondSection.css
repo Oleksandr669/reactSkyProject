@@ -1,0 +1,109 @@
+
+.offer-item {
+    flex-basis: 50%;
+    padding-right: 40px;
+}
+.offer__h2 {
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 80px;
+    color: #233245;
+    margin-bottom: 20px;
+}
+.about-item span {
+    margin: 0 0 15px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #4d5d71;
+}
+@media (max-width: 767px) {
+    .offer__h2 {
+        font-size: 53px;
+    }
+}
+
+.offer__button {
+    margin: 20px 0;
+    height: 50px;
+    width: 170px;
+    border-radius: 35px;
+    border-color: transparent;
+}
+.offer__button span {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #233245;
+}
+.offer-item span {
+    font-size: 15px;
+    color: #4d5d71;
+    line-height: 29px;
+}
+.offer__list-blok {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+@media (max-width: 767px) {
+    .offer__list-blok {
+        display: flex;
+        flex-direction: column;
+    }
+    .offer__list {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .list > li {
+        padding: 20px 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    .list:last-child {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+}
+
+.offer__info {
+    padding-right: 1px;
+}
+
+.info-text {
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+    padding-left: 10px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #4d5d71;
+}
+
+/* .gorisont {
+    flex-direction: column;
+    max-width: 100%;
+    height: 20px;
+    background-image: url(./logo/ski2-sep1.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% 100%;
+} */
+
+/* ------------------------------------------------ */
+
+.container__flex {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.thre-blok {
+    display: flex;
+}
+.thre-blok__colum {
+    flex: 0 1 100%;
+    padding: 0px 15px;
+}
+.offer-blok {
+
+    background-color: #b5cfea;
+}

@@ -1,19 +1,12 @@
-.backGround-container{
-    background-color: #b5cfea;
-    padding-top: 20px;
-
-}
-.rental-item{
-    background-image: url(./images/rental.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 70px 30% 55px 10%;
-    border-radius: 8px;
-    background-size: cover;
-    font-size: 35px;
-}
 .flex-container{
     display: flex;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex:0 1 100%
 }
 
 .link {
@@ -25,9 +18,22 @@
     font-size: 16px;
 }
 
-.shop-item{
+.backGround-container{
+    background-color: #b5cfea;
+    padding-top: 20px;
 
-        background-image: url(./images/ski2-home-pic4.jpg);
+}
+.rental-item{
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px 30% 55px 10%;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-size: cover;
+    font-size: 35px;
+}
+
+.shop-item{
         background-repeat: no-repeat;
         background-position: center;
         padding: 30px 15% 40px;
@@ -39,24 +45,34 @@
    
 }
 .lessons-item{
-    background-image: url(./images/ski2-home-pic2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     padding: 160px 30% 145px 10%;
     border-radius: 8px;
+    margin-top: 20px;
     background-size: cover;
     text-align: center;
 }
 
 .jumping-item{
-    background-image: url(./images/ski2-home-pic3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     padding: 70px 30% 55px 10%;
     border-radius: 8px;
+    margin-top: 20px;
     background-size: cover;
 }
+.resort-item {
+    margin-top: 20px;
+    justify-content: flex-end;
+    display: flex;
+}
 
+.str2192{
+    font-size: 22px;
+color: white;
+align-self: flex-end;
+}
 .str2192:after {
     content: " \2192";
 }
@@ -64,3 +80,19 @@
 .column{
     padding: 0px 15px;
 }
+@media (max-width: 960px) {
+    .container {
+        max-width: 710px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+        flex-wrap: wrap;
+        /* flex: 0 1 33.333%; */
+    }
+    .resort-item {
+        justify-content: center;
+    }
+}
+

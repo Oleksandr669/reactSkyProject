@@ -1,26 +1,32 @@
 import { Box } from '@material-ui/core'
 import React from 'react'
-import './test2.css'
+import './FirstSection.css'
 
 const FirstSection = () => {
     return (
         <div className="backGround-container">
             <Box
-                height="100vh"
-                display="flex"
-                maxWidth="1200px"
-                margin="0 auto"
-                justifyContent="space-between"
-                flex="0 1 100%"
+                className="container"
+                // height="100vh"
             >
                 <Box flex="0 1 100%">
                     <div className="first-collum column">
-                        <div className="rental-item">
+                        <div
+                            className="rental-item"
+                            style={{
+                                backgroundImage: `url("./images/rental.jpg")`,
+                            }}
+                        >
                             <div className="link">Equipment rental</div>
                             <div className="text">Sed ultrices magna</div>
                         </div>
 
-                        <div className="shop-item">
+                        <div
+                            className="shop-item"
+                            style={{
+                                backgroundImage: `url("./images/ski2-home-pic4.jpg")`,
+                            }}
+                        >
                             <img src="./images/logo.png" />
                             <div className="link">Our shop</div>
                         </div>
@@ -28,7 +34,12 @@ const FirstSection = () => {
                 </Box>
                 <Box flex="0 1 100%">
                     <div className="second-collum column">
-                        <div className="lessons-item">
+                        <div
+                            className="lessons-item"
+                            style={{
+                                backgroundImage: `url("./images/ski2-home-pic2.jpg")`,
+                            }}
+                        >
                             <div className="link">
                                 Ski and Snowboard Lessons
                             </div>
@@ -37,7 +48,12 @@ const FirstSection = () => {
                 </Box>
                 <Box flex="0 1 100%">
                     <div className="third-collum column">
-                        <div className="jumping-item">
+                        <div
+                            className="jumping-item"
+                            style={{
+                                backgroundImage: `url("./images/ski2-home-pic3.jpg")`,
+                            }}
+                        >
                             <div className="link">
                                 Ski <br /> jumping
                             </div>
