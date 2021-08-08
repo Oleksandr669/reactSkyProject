@@ -1,10 +1,12 @@
-import React from 'react'
 import { Box } from '@material-ui/core'
 import Menu from './Menu/Menu.js'
 import Logo from './Logo/Logo.js'
 import './testStyle.css'
-
+import React from 'react'
+import headerTextArray from './headerTextArray.js'
+import { useState } from 'react'
 const Header = () => {
+    const [headerText, setHeaderText] = useState(headerTextArray[0])
     return (
         <>
             <div className="start-screen">
@@ -16,11 +18,11 @@ const Header = () => {
                 >
                     <Logo />
                     <div>
-                        <Menu />
+                        <Menu setHeaderText={setHeaderText} />
                     </div>
                 </Box>
                 <div className="title">
-                    <h1>Explore the resort</h1>
+                    <h1>{headerText}</h1>
                 </div>
             </div>
         </>

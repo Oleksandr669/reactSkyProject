@@ -1,0 +1,39 @@
+.explore-textBox{
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.textBox-itemOne{
+    flex-basis: 200%;
+}
+.textBox-itemTwo{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.itemOne{
+    display: flex;
+    flex-direction: column;
+    padding:  80px 7% 65px;
+  
+}
+.itemTwo{
+padding:  80px  65px;
+margin: 0 30px;
+}
+.itemTwo-span{
+    font-size: 17px;
+    margin-top: 80px;
+}
+
+.spanMargin {
+margin: 30px 0;
+}
+h4{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+}

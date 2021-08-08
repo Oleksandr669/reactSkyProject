@@ -1,4 +1,6 @@
-
+*{
+    font-family: "Jost", sans-serif;
+}
 .offer-item {
     flex-basis: 50%;
     padding-right: 40px;
@@ -45,15 +47,26 @@
     justify-content: space-between;
     flex-basis: 50%;
 }
+@media (max-width: 960px) {
+    .thre-blok{
+        display: flex;
+    }
+
+}
+
 @media (max-width: 767px) {
     .offer__list-blok {
         display: flex;
         flex-direction: column;
+        flex: 1 1 auto;
+  
+        
     }
     .offer__list {
         display: flex;
         justify-content: center;
         text-align: center;
+        flex-wrap: wrap;
     }
     .list > li {
         padding: 20px 0;
@@ -61,6 +74,10 @@
     }
     .list:last-child {
         border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    }
+    .thre-blok{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -76,15 +93,14 @@
     color: #4d5d71;
 }
 
-/* .gorisont {
+.gorisont {
     flex-direction: column;
     max-width: 100%;
     height: 20px;
-    background-image: url(./logo/ski2-sep1.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% 100%;
-} */
+}
 
 /* ------------------------------------------------ */
 
@@ -96,6 +112,19 @@
 
 }
 
+@media (max-width: 960px) {
+    .container__flex {
+        max-width: 810px;
+
+    }
+    .li{
+        font-size: 15px;
+    }
+    .offer__h2{
+        font-size: 60px;
+    }
+         
+}
 .thre-blok {
     display: flex;
 }
@@ -107,3 +136,25 @@
 
     background-color: #b5cfea;
 }
+
+li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+    color: #233245;
+    line-height: 29px;
+    font-family: "Jost", sans-serif;
+    cursor: pointer;
+}
+
+li:active{
+    color: #4ee9fe;
+    border-right: 5px solid #4ee9fe;
+}
+.offer__list-blok {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+

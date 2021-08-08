@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+}
+.flexBox{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0;
+}
+.fistFlexItem   {
+
+flex-basis: 50%;
+}
+.secondFlexItem{
+
+}
+h2{
+    color: #233245;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 80px;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    color: #233245;
+}
+.button {
+    margin: 20px 0;
+    height: 50px;
+    width: 170px;
+    border-radius: 35px;
+    border-color: transparent;
+}
+.button span {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #233245;
+}
+.firstCard, .secondCard {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.line{
+    margin: 35px 0;
+    color: #4d5d71;
+
+}
+.spanBox{
+    margin: 35px 0;
+}
+
+.card-images{
+
+}
+    /* ---------------------------------- */
+
+    .fullScreanSection{
+
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            padding-top: 110px;
+            padding-bottom: 140px;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            z-index: 20;
+    
+    }
+    .container__flex {
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .full-screen__title {
+        align-self: flex-end;
+    }
+    .full__screen-info {
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+    .full__screen-text {
+        width: 50%;
+    }
+    .full__screen-info p.title {
+        font-size: 35px;
+        font-weight: 500;
+        color: #233245;
+    }
+    .full__screen-info p.miles {
+        font-size: 100px;
+        font-weight: 500;
+        color: #233245;
+    }
+    .full__screen-text p {
+        color: #4d5d71;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .full__screen-button {
+        margin: 20px 0;
+        height: 50px;
+        width: 170px;
+        border-radius: 35px;
+        border-color: transparent;
+    }
+    .full__screen-button span {
+        margin: 20px 0;
+        font-size: 20px;
+        font-weight: 500;
+        color: #233245;
+    }
+    .button-box {
+        align-self: center;
+    }
+    .full__screen-info {
+        margin: 440px 0 20px 0;
+    }

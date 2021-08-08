@@ -1,11 +1,15 @@
+import { Route, Switch } from 'react-router-dom'
 import React from 'react'
-import FirstSection from '../../components/FirstSection/FirstSection'
-import SecondSection from '../../components/SecondSection/SecondSection'
+import TestComponent from '../../components/TestComponent'
+import Explore from '../../pages/Explore/Explore'
+
 const Main = () => {
     return (
         <>
-            <FirstSection />
-            <SecondSection />
+            <Switch>
+                <Route path="/" exact render={() => <TestComponent />} />
+                <Route path="/explore" component={Explore} />
+            </Switch>
         </>
     )
 }
