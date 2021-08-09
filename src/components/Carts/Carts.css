@@ -1,0 +1,14 @@
+
+.cartsItem{
+ display: flex;
+ flex-direction: column;
+}
+.cartsImages{
+margin-bottom: 30px;
+}
+h5{
+    font-size: 22px;
+    color: #233245;
+    font-weight: 400;
+    margin-bottom: 25px;
+}

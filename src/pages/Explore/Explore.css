@@ -37,3 +37,19 @@ h4{
     font-weight: 500;
     line-height: 50px;
 }
+.cartsBox{
+    margin-top: 40px;
+    padding-bottom: 75px;
+    display: flex;
+}
+.cartTitle{
+    text-align: center;
+    margin-top: 75px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #233245;
+}
+.cartContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+}

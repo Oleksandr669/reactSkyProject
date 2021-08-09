@@ -1,19 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Card from '@material-ui/core/Card'
-import CardContent from '@material-ui/core/CardContent'
+import './Carts.css'
 
 const CartsListItem = ({ title, text, image }) => {
     return (
-        <Card>
-            <CardContent>
-                <div>
-                    <img src={image} />
-                    <h4>{title}</h4>
-                    <span>{text}</span>
-                </div>
-            </CardContent>
-        </Card>
+        <div className="cartsItem">
+            <div className="cartsImages">
+                <img src={image} />
+            </div>
+            <h5>{title}</h5>
+            <span>{text}</span>
+        </div>
     )
 }
 CartsListItem.propTypes = {

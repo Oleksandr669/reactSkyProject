@@ -5,7 +5,7 @@ import CartsListItem from './CartsListItem'
 const CartsList = () => {
     return (
         <>
-            {cartsArray.map(({ title, text, image }) => (
+            {cartsArray.map(({ id, title, text, image }) => (
                 <div key={id}>
                     <CartsListItem title={title} text={text} image={image} />
                 </div>

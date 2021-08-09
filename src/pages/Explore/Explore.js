@@ -1,7 +1,7 @@
 import React from 'react'
 import './Explore.css'
 
-import CartsListItem from '../../components/Carts/CartsListItem'
+import CartsList from '../../components/Carts/CartsList'
 
 const Explore = () => {
     return (
@@ -43,8 +43,11 @@ const Explore = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <CartsListItem />
+                <div className="cartContainer">
+                    <div className="cartTitle">Aenean et sodales lorem</div>
+                    <div className="cartsBox">
+                        <CartsList />
+                    </div>
                 </div>
             </div>
         </>
